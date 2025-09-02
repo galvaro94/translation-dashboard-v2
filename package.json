@@ -1,0 +1,11 @@
+{
+  "name": "translation-dashboard",
+  "version": "1.0.0",
+  "description": "Translation services dashboard with Google Sheets integration",
+  "scripts": {
+    "fetch-data": "node src/scripts/fetch-data.js"
+  },
+  "dependencies": {
+    "google-spreadsheet": "^4.1.2"
+  }
+}
